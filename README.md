@@ -1,4 +1,5 @@
 Python Advanced with Python - 01.2023
+![image](https://user-images.githubusercontent.com/114032977/191654383-66852f3f-ead9-4ef0-8b51-feb0dea131eb.png)
 
 https://softuni.bg/trainings/3963/python-advanced-january-2023
 
