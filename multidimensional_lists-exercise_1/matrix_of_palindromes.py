@@ -12,3 +12,14 @@ for n in range(rows):
         matrix.append(alphabet[n] + alphabet[i + n] + alphabet[n])
     print(" ".join(matrix))
     matrix.clear()
+
+# r, c = [int(x) for x in input().split()]
+#
+# matrix = []
+# start_index = ord("a")
+#
+# for row in range(start_index, start_index + r):
+#     for col in range(start_index, start_index + c):
+#         print(f"{chr(row)}{chr(row+col-start_index)}{chr(row)}", end=" ")
+#     print()
+#

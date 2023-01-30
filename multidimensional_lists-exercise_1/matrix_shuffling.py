@@ -29,3 +29,24 @@ while True:
 
     for z in matrix:
         print(*z, sep=" ")
+
+# row, col = [int(x) for x in input().split()]
+# matrix = []
+#
+# for _ in range(row):
+#     matrix.append([x for x in input().split()])
+#
+# while True:
+#     command = input().split()
+#     if command[0] == "END":
+#         break
+#
+#     if command[0] == "swap" and len(command) == 5 and 0 <= int(command[1]) <= row and 0 <= int(command[2]) <= col and 0 <= int(command[3])<= row and 0 <= int(command[4]) <= col:
+#
+#         matrix[int(command[1])][int(command[2])], matrix[int(command[3])][int(command[4])] = matrix[int(command[3])][int(command[4])], matrix[int(command[1])][int(command[2])]
+#
+#         [print(*x) for x in matrix]
+#
+#     else:
+#         print("Invalid input!")
+#         continue

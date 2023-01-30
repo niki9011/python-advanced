@@ -23,3 +23,29 @@ while True:
         print("Invalid coordinates")
 
 [print(*x) for x in matrix]
+
+
+# rows = int(input())
+#
+# matrix = []
+#
+# for _ in range(rows):
+#     matrix.append([int(x) for x in input().split()])
+#
+# commands = input().split()
+#
+# while commands[0] != "END":
+#
+#     command, row, col, num = (int(x) if x.isdigit() else x for x in commands)
+#
+#     if 0 <= int(row) <= rows - 1 and 0 <= int(col) <= rows - 1:
+#         if command == "Add":
+#             matrix[row][col] += num
+#         elif command == "Subtract":
+#             matrix[row][col] -= num
+#     else:
+#         print("Invalid coordinates")
+#
+#     commands = input().split()
+#
+# [print(*x) for x in matrix]
